@@ -4,10 +4,10 @@
 #	Account Achievements module
 ###################################################################################################
 
-# Enable the module? (1: true | 0: false)
+# 启用这个模块吗? (1: true | 0: false)
 
 Account.Achievements.Enable = 1
 
-# Announce the module when the player logs in?
+# 当玩家登录时宣布模块？
 
 Account.Achievements.Announce = 1

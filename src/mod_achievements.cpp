@@ -31,7 +31,7 @@ public:
         {
 			if (sConfigMgr->GetBoolDefault("Account.Achievements.Announce", true))
             {
-                ChatHandler(pPlayer->GetSession()).SendSysMessage("This server is running the |cff4CFF00AccountAchievements |rmodule.");
+                ChatHandler(pPlayer->GetSession()).SendSysMessage("服务器已启用 |cff4CFF00账号成就 |r模块。");
             }
 
 			std::vector<uint32> Guids;
